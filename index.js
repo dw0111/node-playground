@@ -1,4 +1,3 @@
-const hello = require('./hello')
+const countlines = require('./countlines')
 
-const random = require('./random')
-console.log(random(process.argv[2]))
+countlines('.prettierignore')

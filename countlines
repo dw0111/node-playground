@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+const chalk = require('chalk')
+
+const path = process.argv[2]
+
+countlines(path)
+
+function countlines(path) {
+  fs.readFile(path, { encoding: 'utf-8' }, (err, data) => {
+    if (err) {
+      console.log(chalk.red(err))
+    } else {
+      console.log(`File contains ${chalk.green(data.split('\n').length)} lines`)
+    }
+  })
+}
