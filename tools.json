@@ -1,0 +1,5 @@
+[
+  { "name": "vim", "rating": 2 },
+  { "name": "vscode", "rating": 8 },
+  { "name": "homebrew", "rating": "8" }
+]
