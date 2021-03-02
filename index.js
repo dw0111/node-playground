@@ -1,3 +1,6 @@
-const countlines = require('./countlines')
+const addStudent = require('./addStudent')
 
-countlines('.prettierignore')
+const name = process.argv[2]
+const role = process.argv[3]
+
+addStudent({ name, role })

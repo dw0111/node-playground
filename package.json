@@ -19,5 +19,8 @@
   "homepage": "https://github.com/dw0111/node-playground#readme",
   "dependencies": {
     "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "mongoose": "^5.11.18"
   }
 }
